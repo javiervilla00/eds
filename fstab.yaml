@@ -1,1 +1,4 @@
-mountpoints: 
+mountpoints:
+  /:
+    url: https://raw.githubusercontent.com/javiervilla00/eds/main
+    type: github
