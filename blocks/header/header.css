@@ -300,8 +300,11 @@ header nav .nav-tools a {
 }
 
 @media (width >= 900px) {
-  header nav .nav-sections ul {
+  header nav .nav-sections .default-content-wrapper > ul {
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
+    gap: 32px;
     align-items: center;
   }
 }
