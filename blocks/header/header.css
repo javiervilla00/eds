@@ -298,3 +298,10 @@ header nav .nav-tools a {
   text-decoration: none;
   font-weight: 600;
 }
+
+@media (width >= 900px) {
+  header nav .nav-sections ul {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}
