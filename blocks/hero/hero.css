@@ -54,17 +54,20 @@
   font-weight: 600;
   text-decoration: none;
   font-size: 1rem;
+  :hover {
+    text-decoration: none;
+  }
 }
 
 .hero-btn--primary {
   background-color: #0057ff;
-  color: #fff;
+  color: white;
 }
 
 .hero-btn--secondary {
   background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
+  color: white;
+  border: none;
 }
 
 .hero-car {
