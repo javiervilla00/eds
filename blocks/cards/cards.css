@@ -38,3 +38,39 @@
   font-size: 0.875rem;
   color: #666;
 }
+
+.cards-card-desc {
+  font-size: 0.875rem;
+  color: #444;
+  margin: 0;
+}
+
+.cards-card-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.cards-btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cards-btn--primary {
+  background-color: #0057ff;
+  color: #fff;
+}
+
+.cards-btn--secondary {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.cards-btn--secondary::after {
+  display: none;
+}
