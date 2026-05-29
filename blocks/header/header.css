@@ -270,3 +270,31 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+/* === ITV header-lp customization === */
+:root {
+  --nav-height: 64px;
+}
+
+header .nav-wrapper {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header nav .nav-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+header nav .nav-sections ul {
+  gap: 32px;
+}
+
+header nav .nav-tools a {
+  background-color: #25d366;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
