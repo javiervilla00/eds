@@ -67,10 +67,14 @@
 
 .cards-btn--secondary {
   background-color: transparent;
-  color: #333;
-  border: 1px solid #ccc;
+  color: white;
+  background-color: #ccc;
 }
 
 .cards-btn--secondary::after {
+  display: none;
+}
+
+.cards-card-buttons a.hero-btn--secondary::after {
   display: none;
 }
