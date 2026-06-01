@@ -99,3 +99,27 @@ footer .section:nth-child(4) {
 footer .section:nth-child(4) .default-content-wrapper {
   justify-content: flex-end;
 }
+
+/* línea divisoria entre fila superior e inferior */
+footer .section:nth-child(3),
+footer .section:nth-child(4) {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 24px;
+}
+
+/* fondo circular blanco en los iconos sociales */
+footer .section:nth-child(4) a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+footer .section:nth-child(4) img {
+  width: 20px;
+  height: 20px;
+  filter: none;
+}
