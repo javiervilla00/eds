@@ -98,3 +98,12 @@
     padding: 0 16px 24px;
   }
 }
+
+main > .section:has(.hero-wrapper) {
+  padding: 0;
+  max-width: unset;
+}
+
+.hero-wrapper {
+  max-width: unset;
+}
