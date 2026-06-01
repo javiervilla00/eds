@@ -285,10 +285,10 @@ header nav .nav-brand {
 }
 
 header nav .nav-tools a {
-  background-color: #25d366;
+  background-color: #128c7e;
   color: #fff;
   padding: 8px 16px;
-  border-radius: 4px;
+  border-radius: 25px;
   text-decoration: none;
   font-weight: 600;
 }
