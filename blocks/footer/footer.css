@@ -1,20 +1,77 @@
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  background-color: #1a1a1a;
+  color: #ccc;
+  padding: 48px 5vw 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 64px;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer h2 {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
-footer .footer p {
+footer p {
+  margin: 0 0 8px;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer ul li a {
+  font-size: 0.875rem;
+}
+
+/* iconos de dirección y email — sección 1 */
+footer .section:nth-child(1) img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  filter: invert(1);
+  flex-shrink: 0;
+}
+
+/* iconos sociales — sección 4 */
+footer .section:nth-child(4) p {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+footer .section:nth-child(4) img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  filter: invert(1);
+}
+
+@media (width < 768px) {
+  footer {
+    grid-template-columns: 1fr;
   }
 }
