@@ -1,10 +1,17 @@
 footer {
   background-color: #1a1a1a;
   color: #ccc;
-  padding: 48px 5vw 24px;
+}
+
+footer > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px 64px;
+  padding: 48px 5vw 24px;
+}
+
+footer .section {
+  min-width: 0;
 }
 
 footer h2 {
@@ -20,12 +27,10 @@ footer p {
   margin: 0 0 8px;
   font-size: 0.875rem;
   line-height: 1.6;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
-footer a {
+footer a,
+footer a:any-link {
   color: #ccc;
   text-decoration: none;
 }
@@ -43,11 +48,13 @@ footer ul {
   gap: 8px;
 }
 
-footer ul li a {
-  font-size: 0.875rem;
+/* iconos de dirección/email — sección 1 */
+footer .section:nth-child(1) p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-/* iconos de dirección y email — sección 1 */
 footer .section:nth-child(1) img {
   width: 16px;
   height: 16px;
@@ -56,11 +63,17 @@ footer .section:nth-child(1) img {
   flex-shrink: 0;
 }
 
-/* iconos sociales — sección 4 */
-footer .section:nth-child(4) p {
+/* iconos sociales — sección 4: poner en fila */
+footer .section:nth-child(4) .default-content-wrapper {
   display: flex;
+  flex-direction: row;
   gap: 16px;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+footer .section:nth-child(4) p {
+  margin: 0;
 }
 
 footer .section:nth-child(4) img {
@@ -68,10 +81,11 @@ footer .section:nth-child(4) img {
   height: 28px;
   object-fit: contain;
   filter: invert(1);
+  display: block;
 }
 
 @media (width < 768px) {
-  footer {
+  footer > div {
     grid-template-columns: 1fr;
   }
 }
