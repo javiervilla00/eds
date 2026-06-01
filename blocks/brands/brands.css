@@ -1,0 +1,22 @@
+.brands-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 48px 32px;
+}
+
+.brands-item img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: opacity 0.2s, filter 0.2s;
+}
+
+.brands-item img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
