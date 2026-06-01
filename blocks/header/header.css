@@ -301,3 +301,10 @@ header nav .nav-tools a {
     align-items: center;
   }
 }
+
+@media (width < 900px) {
+  header nav .nav-tools {
+    display: none;
+    visibility: hidden;
+  }
+}
