@@ -105,5 +105,6 @@ main > .section:has(.hero-wrapper) {
 }
 
 .hero-wrapper {
-  max-width: unset;
+  margin: 0;
+  padding: 0;
 }
