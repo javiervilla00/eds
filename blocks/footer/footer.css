@@ -89,10 +89,11 @@ footer .section:nth-child(4) img {
     grid-template-columns: 1fr;
   }
 }
+
 footer .section:nth-child(2),
 footer .section:nth-child(4) {
   text-align: left;
-  justify-content: flex-end;
+  justify-self: end;
 }
 
 footer .section:nth-child(4) .default-content-wrapper {
