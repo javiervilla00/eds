@@ -78,9 +78,9 @@
 }
 
 .cards-card-buttons a.cards-btn--secondary {
-  color: #333;
+  color: #fff;
   border: 1px solid #ccc;
-  background-color: transparent;
+  background-color: #ccc;
   box-shadow: none;
 }
 
