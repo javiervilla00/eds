@@ -60,30 +60,28 @@
   text-decoration: none;
 }
 
-.cards-btn--primary {
+.cards-btn-primary {
   background-color: #0057ff;
   color: #fff;
 }
 
-.cards-btn--secondary {
-  background-color: transparent;
-  color: #fff;
+.cards-btn-secondary {
   background-color: #ccc;
+  color: #333;
 }
-
 
 .cards-card-buttons a.button,
 .cards-card-buttons a.cards-btn {
   color: #fff;
 }
 
-.cards-card-buttons a.cards-btn--secondary {
-  color: #fff;
+.cards-card-buttons a.cards-btn-secondary {
+  color: #333;
   border: 1px solid #ccc;
   background-color: #ccc;
   box-shadow: none;
 }
 
-.cards-card-buttons a.cards-btn--secondary::after {
+.cards-card-buttons a.cards-btn-secondary::after {
   display: none;
 }

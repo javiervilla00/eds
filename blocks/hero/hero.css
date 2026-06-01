@@ -59,18 +59,17 @@
   margin: 0;
 }
 
-.hero-buttons a.hero-btn--primary {
+.hero-buttons a.hero-btn-primary {
   background-color: #0057ff;
 }
 
-.hero-buttons a.hero-btn--secondary {
+.hero-buttons a.hero-btn-secondary {
   background-color: transparent;
   border: none;
   box-shadow: none;
 }
 
-/* quita la flecha → del botón secundario del boilerplate */
-.hero-buttons a.hero-btn--secondary::after {
+.hero-buttons a.hero-btn-secondary::after {
   display: none;
 }
 

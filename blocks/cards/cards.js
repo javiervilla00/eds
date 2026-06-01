@@ -35,7 +35,7 @@ export default function decorate(block) {
       const btnWrapper = document.createElement('div');
       btnWrapper.classList.add('cards-card-buttons');
       btnsCell.querySelectorAll('a').forEach((a, i) => {
-        a.classList.add('cards-btn', i === 0 ? 'cards-btn--primary' : 'cards-btn--secondary');
+        a.classList.add('cards-btn', i === 0 ? 'cards-btn-primary' : 'cards-btn-secondary');
         btnWrapper.append(a);
       });
       content.append(btnWrapper);

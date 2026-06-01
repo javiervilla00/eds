@@ -1,6 +1,7 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -224,7 +225,7 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul {
     display: flex;
-    gap: 24px;
+    gap: 32px;
     margin: 0;
   }
 
@@ -276,18 +277,9 @@ header nav .nav-tools {
   --nav-height: 64px;
 }
 
-header .nav-wrapper {
-  background-color: #fff;
-  border-bottom: 1px solid #e0e0e0;
-}
-
 header nav .nav-brand {
   font-size: 1.25rem;
   font-weight: 700;
-}
-
-header nav .nav-sections ul {
-  gap: 32px;
 }
 
 header nav .nav-tools a {
@@ -302,8 +294,7 @@ header nav .nav-tools a {
 @media (width >= 900px) {
   header nav .nav-sections .default-content-wrapper > ul {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row nowrap;
     gap: 32px;
     align-items: center;
   }

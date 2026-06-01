@@ -27,7 +27,7 @@ export default function decorate(block) {
     [...btnsRow.children].forEach((cell, i) => {
       const a = cell.querySelector('a');
       if (a) {
-        a.classList.add('hero-btn', i === 0 ? 'hero-btn--primary' : 'hero-btn--secondary');
+        a.classList.add('hero-btn', i === 0 ? 'hero-btn-primary' : 'hero-btn-secondary');
         btnWrapper.append(a);
       }
     });
