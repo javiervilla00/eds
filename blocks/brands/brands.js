@@ -1,5 +1,3 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
-
 export default function decorate(block) {
   const row = block.firstElementChild;
   const wrapper = document.createElement('div');
